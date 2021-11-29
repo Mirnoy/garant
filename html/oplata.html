@@ -1,0 +1,53 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>																								
+		<!-- Заголовок страницы в браузере -->
+		<title>FreelanceFor</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="../css/oplata.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="nav">
+						<a href="how_work.html" class="nav__link">Как это работает?</a>
+						<a href="feedback.html" class="nav__link">Обратная связь</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="intro">
+				<img src="../image/bg/1.jpg" alt="" class="intro__image">
+				<div class="container">
+					<div class="intro__body">
+						<div class="intro__title">Оплата продавцу</div>
+						<div class="intro__subtitle">Теперь оплатите стоимость аккаунта</div>
+						<div class="intro__input input">
+							<div class="input__title">Счет нашего Qiwi Кошелька</div>
+							<div class='input__text' id="explay" onClick="copyText(this)">
+								2034 2034 2034 2032
+							</div>
+						</div>
+						<div class="intro__text text">
+							<p class="text1">Вы должны оплатить договоренную стоимость
+							аккаунта. После проверки деньги будут переведены 
+							на счет продавца</p>
+							<p class="text2">В комментарии к платежу укажите следующее: <span>sdelka#2eMn4</span></p>
+						</div>
+						<div class="intro__botton"> 
+							<a href="#" class="botton__text">проверить оплату</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="../js/oplata.js"></script> 
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>																								
+		<!-- Заголовок страницы в браузере -->
+		<title>FreelanceFor</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="../css/id_security.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+		<div class="wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="nav">
+						<a href="../index.html" class="nav__link">Главная</a>
+						<a href="../html/feedback.html" class="nav__link">Обратная связь</a>
+					</div>
+				</div>
+			</div>
+			<div class="intro">
+				<img src="../image/bg/1.jpg" alt="" class="intro__image">
+				<div class="container">
+					<div class="intro__wrap">
+						<div class="intro__body">
+							<div class="intro__column column">
+								<div class="column__title">Ваш уникальный айди:</div>
+								<div class="column__body">
+									<div class='column__id' id="explay" onClick="copyText(this)">
+										2QM33980f22D120
+									</div>
+									<a class="link">
+										<img class='intro__copy-image'src="../image/icons/copy.png" alt="">
+								  </a>
+							  </div>
+							</div>
+						</div>
+						<div class="intro__body2">
+							<div class="intro__column column">
+								<div class="column__title t2">Введите айди продавца:</div>
+								<div class="column__body">
+									<input type="text" class="column__input" placeholder="Чтобы ввести, нажмите сюда">
+							  </div>
+							</div>
+						</div>
+						<div class="intro__botton"> 
+							<a href="deal_data.html" class="botton__text">Продолжить</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="../js/id_security.js"></script>
+	</body>
+</html>

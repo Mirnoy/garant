@@ -1,0 +1,75 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>																								
+		<!-- Заголовок страницы в браузере -->
+		<title>FreelanceFor</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="../css/deal_data.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+
+		<div class="wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="nav">
+						<a href="../index.html" class="nav__link">Главная</a>
+						<a href="../html/feedback.html" class="nav__link">Обратная связь</a>
+					</div>
+				</div>
+			</div>
+			<div class="intro">
+				<img src="../image/bg/1.jpg" alt="" class="intro__image">
+				<div class="container">
+					<div class="intro__body">
+						<div class="select__title">Выберите тип сделки: </div>
+						<div class="intro__select">
+							<select name="choose" id="choose" class="choose">
+								<option selected value="opt1">Сделка на аккаунт</option>
+								<option value="opt2">Сделка на голду</option>
+							</select>
+						</div>
+						<div class="intro__sections">
+							<section class="options opt1">
+								<div class="intro__value value is-active">
+									<div class="value__row">
+										<div class="value__text">Стоимость аккаунта:</div>
+										<input class="value__input" type="text" placeholder="1000 руб">
+									</div>
+									<div class="value__row">
+										<div class="value__text">Айди аккаунта:</div>
+										<input class="value__input" type="text" placeholder="248834483848">
+									</div>
+								</div>
+									<div class="intro__botton is-active"> 
+										<a href="loading.html" class="botton__text">проверить аккаунт</a>
+									</div>
+							</section>
+							<section class="options opt2">
+								<div class="intro__value value is-active">
+									<div class="value__row">
+										<div class="value__text">Кол-во золота(голды):</div>
+										<input class="value__input" type="text" placeholder="500 G">
+									</div>
+									<div class="value__row">
+										<div class="value__text">Договоренная стоимость (в рублях):</div>
+										<input class="value__input" type="text" placeholder="250 руб">
+									</div>
+								</div>
+									<div class="intro__botton is-active"> 
+										<a href="loading.html" class="botton__text golda">продолжить</a>
+									</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+			<script src="../js/deal_data.js"></script>
+	</body>
+</html>

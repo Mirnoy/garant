@@ -1,0 +1,82 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>																								
+		<!-- Заголовок страницы в браузере -->
+		<title>FreelanceFor</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="../css/loading2.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="container">
+					<div class="nav">
+						<a href="how_work.html" class="nav__link">Как это работает?</a>
+						<a href="feedback.html" class="nav__link">Обратная связь</a>
+					</div>
+				</div>
+			</div>
+			<div class="intro">
+				<img src="../image/bg/1.jpg" alt="" class="intro__image">
+				<div class="container">
+					<div class="intro__body1">
+						<div class="intro__title">Мы проводим перепривязку аккаунта</div>
+						<div class="intro__subtitle">Это может занять от 1 до 3 минут. Ожидайте:)</div>
+						<div class="preloader">
+							<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+						</div>
+					</div>
+					<div class="intro__body off">
+						<div class="intro__title">Аккаунт перепривязан на нашу почту</div>
+						<div class="intro__subtitle">Вы можете нажать на картинку, чтобы увеличить изображение</div>
+						<div class="intro__images images">
+							<div class="images__body">
+								<a href="#popup1">
+									<img class="intro__image_item" src="../image/loading2/11.jpg" alt="">
+								</a>
+								<a href="#popup2">
+									<img class="intro__image_item" src="../image/loading2/22.jpg" alt="">
+								</a>
+							</div>
+							<div class="images__body_down">
+								<a href="#popup3">
+									<img src="../image/loading2/3.jpg" alt="">
+								</a>
+							</div>
+							<div class="intro__botton"> 
+								<a href="oplata.html" class="botton__text">перейти к оплате</a>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div id="popup1" class="popup">
+			<a href="#" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#" class="popup__close">X</a>
+					<img src="../image/loading2/11.jpg" alt="" class="popup__image">
+				</div>
+			</div>
+		</div>
+		<div id="popup2" class="popup">
+			<a href="#" class="popup__area"></a>
+			<div class="popup__body">
+				<div class="popup__content">
+					<a href="#" class="popup__close">X</a>
+					<img src="../image/loading2/22.jpg" alt="" class="popup__image">
+				</div>
+			</div>
+		</div>
+		<script src="../js/loading2.js"></script>
+	</body>
+</html>
+
